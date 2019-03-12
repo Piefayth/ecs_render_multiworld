@@ -1,8 +1,6 @@
 ﻿using Unity.Entities;
 using System.Collections.Generic;
 using System;
-using UnityEngine.Experimental.LowLevel;
-using UnityEngine.Experimental.PlayerLoop;
 
 public class Bootstrap : ComponentSystem, ICustomBootstrap {
     Client client;

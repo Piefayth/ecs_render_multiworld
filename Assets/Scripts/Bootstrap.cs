@@ -9,7 +9,6 @@ public class Bootstrap : ComponentSystem, ICustomBootstrap {
     Server server;
 
     CustomUpdateSystem customUpdateSystem;
-    bool init = false;
 
     protected override void OnUpdate() {
     }
